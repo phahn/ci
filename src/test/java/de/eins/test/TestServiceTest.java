@@ -13,7 +13,7 @@ import de.eins.test.model.Book;
 import de.eins.test.service.TestService;
 
 @RunWith(SpringJUnit4ClassRunner.class)
-@ContextConfiguration(locations="root-context.xml")
+@ContextConfiguration(locations="/root-context.xml")
 public class TestServiceTest {
 	
 	@Autowired
